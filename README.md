@@ -10,3 +10,11 @@
 ---
 
 ### Se introduce Bootstrap
+
+---
+
+### Actualización HTML y se agregan archivo CSS
+
+    1- Se agrega sidebar
+    2- Se agrega archivo CSS
+    3- Se agrega logo
