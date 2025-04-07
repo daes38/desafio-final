@@ -72,6 +72,11 @@
     width: 100%;
   }
   
+  .social-icon-off {
+    color: black !important;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
   .social-icon {
     color: white !important;
     transition: transform 0.3s ease, color 0.3s ease;

@@ -71,4 +71,9 @@ Se realiza fork al proyecto de Matistr (https://github.com/Nico-Perry-1990/Exame
     1-Se corrige títulos del README.
     2-Se agregan RRSS al sidebar con formato.
 
+### Octava actualización HTML y CSS + correción del README.md
+
+    1-Se corrige barra de navegacion movil
+    2-Se agregan RRSS a navvbar para RRSS.
+
 ## Se finaliza el proyecto y se comparte en GitHub pages.
