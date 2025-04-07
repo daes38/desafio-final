@@ -1,19 +1,108 @@
-/* Sidebar personalizado */
+/* Sidebar estilo oscuro fijo */
 .sidebar {
-    background-color: #212529;
-    min-height: 100vh;
+    background-color: #03081d !important;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1030;
   }
   
-  .nav-link {
+  /* movimiento de p[agina */
+  @media (min-width: 992px) {
+    body {
+      background-color: #f8f9fa !important;
+      margin: 0;
+      overflow: hidden;
+      color: white;
+    }
+  
+    .content {
+      height: 100vh;
+      overflow-y: auto;
+      padding: 2rem;
+      margin-left: 16.66%;
+    }
+  
+    .col-lg-3 {
+      width: 25%;
+    }
+  
+    .col-lg-9 {
+      width: 75%;
+      margin-left: 25%;
+    }
+  }
+  
+  /* Enlaces del sidebar */
+  .sidebar .nav-link {
     color: white;
     transition: color 0.3s ease;
   }
   
-  .nav-link:hover {
+  .sidebar .nav-link:hover {
     color: #00bfff;
   }
-  
-  /* Contenido con espacio */
-  .content {
-    padding: 2rem;
+  /* hero section */
+  #Hero-Section {
+    background-image: url("../images/bg-forest.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
   }
+
+  #Hero-Section .item-size {
+    position: absolute;
+    top: 20px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    width: 400px;
+    height: auto;
+  }
+
+  h2 {
+    color: black
+  }
+  p  {
+    color: #343a40 !important
+}
+
+.sidebar .nav-link {
+    color: white;
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    text-align: center;
+    transition: color 0.3s ease;
+  }
+
+  .perfil-foto {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #00bfff;
+    box-shadow: 0 0 10px rgba(0, 191, 255, 0.2);
+  }
+  /* shape divider */
+  .custom-shape-divider-bottom-1743988244 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1743988244 svg {
+    position: relative;
+    display: block;
+    width: calc(177% + 1.3px);
+    height: 135px;
+}
+
+.custom-shape-divider-bottom-1743988244 .shape-fill {
+    fill: #F8F9FA;
+}
