@@ -188,6 +188,15 @@ h5 {
 .card-background{
     background-color: #000000 !important;
 }
+  /* sección de portafolio */
+.image-top {
+  height: 200px;
+  background-size: cover;
+  background-position: top;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
 /*Estilos para los iconos */
 .fa-map-marker-alt,
 .fa-phone,

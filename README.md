@@ -28,8 +28,17 @@
     3-Se agrega divshaper
     4-Se agrega Script para desplazamiento dentro de la pagina.
 
+---
+
 ### Tercera actualización HTML y CSS
 
     1-Se agrega seccion sobre mi experiencia y mi educación
     2-Se modifica la fuente del sitio
     3-Se agrega FA
+
+---
+
+### Tercera actualización HTML y CSS
+
+    1-Se agregan imágenes para completar el portafolio
+    2-se estructura el portafolio en base a cartas
