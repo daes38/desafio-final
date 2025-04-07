@@ -27,3 +27,9 @@
     2-Se agrega Hero Section
     3-Se agrega divshaper
     4-Se agrega Script para desplazamiento dentro de la pagina.
+
+### Tercera actualización HTML y CSS
+
+    1-Se agrega seccion sobre mi experiencia y mi educación
+    2-Se modifica la fuente del sitio
+    3-Se agrega FA

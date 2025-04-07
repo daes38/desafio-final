@@ -1,3 +1,8 @@
+  /* fonts */
+
+
+
+
 /* Sidebar estilo oscuro fijo */
 .sidebar {
     background-color: #03081d !important;
@@ -34,11 +39,25 @@
       margin-left: 25%;
     }
   }
-  
+  body {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      color: #343a40 !important;
+  }
   /* Enlaces del sidebar */
   .sidebar .nav-link {
     color: white;
     transition: color 0.3s ease;
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
   }
   
   .sidebar .nav-link:hover {
@@ -64,7 +83,9 @@
   }
 
   h2 {
-    color: black
+    color: black;
+    padding-bottom: 2vh;
+    
   }
   p  {
     color: #343a40 !important
@@ -105,4 +126,58 @@
 
 .custom-shape-divider-bottom-1743988244 .shape-fill {
     fill: #F8F9FA;
+}
+
+  /* sección de descripciones */
+.custom-line {
+    width: 7%;
+    border: none;
+    border-top: 4px solid #14dcdf;
+    margin: 10px 0;
+    padding-top: 30px;
+  }
+  /* sobre mi */
+  .personal-info ul li {
+    position: relative;
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .personal-info ul li::before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #00bfff;
+    font-size: 1.2rem; 
+  }
+  /* sección de experiencia */
+  .card {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+    border-radius: 0.25rem;
+}
+
+.bg-exp {
+    background-color: #93daf2 !important;
+}
+h5 {
+    color: #212529; 
+    margin-bottom: 0.2rem;
+}
+
+.text-muted {
+    font-size: 0.9rem;
+}
+
+.list-unstyled li {
+    margin-bottom: 0.3rem;
+}
+
+/*Estilos para los iconos */
+.fa-map-marker-alt,
+.fa-phone,
+.fa-envelope,
+.fa-caret-right {
+    color: #007bff; 
 }

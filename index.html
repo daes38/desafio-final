@@ -9,9 +9,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <!-- Navbar para móviles -->
     <nav class="navbar navbar-dark bg-dark d-lg-none">
       <div class="container-fluid">
         <button
@@ -27,7 +32,6 @@
 
     <div class="container-fluid align-items-center">
       <div class="row">
-        <!-- Sidebar fijo en pantallas grandes -->
         <div
           class="col-lg-3 col-xl-2 p-0 bg-dark offcanvas-lg offcanvas-start sidebar"
           tabindex="-1"
@@ -64,15 +68,13 @@
           </div>
         </div>
 
-        <!-- header -->
-        <main class="col-lg-9 col-xl-10 content p-0">
+        <main class="col-lg-9 col-xl-10 content p-0 text-start">
           <header id="Hero-Section" class="w-100 align-items-end">
             <img
               src="assets/images/logo.png"
               alt="logo"
               class="p-3 item-size"
             />
-            <!-- shape divider -->
             <div class="custom-shape-divider-bottom-1743988244">
               <svg
                 data-name="Layer 1"
@@ -88,26 +90,184 @@
             </div>
           </header>
 
-          <!-- contenido principal -->
-          <div class="p-4">
+          <div class="col'col-md-4 p-4">
             <section id="sobre-mi" class="mb-5">
               <h2>Sobre mí</h2>
+              <hr class="custom-line" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
-                architecto vel omnis impedit rem repudiandae ipsa atque
-                accusantium aliquid harum fuga doloribus tempore dolor minima
-                tenetur, fugiat itaque? Non, temporibus?
+                Profesional en abastecimiento con 4 años de experiencia,
+                gestionando compras de más de 1 millón de dólares mensuales, con
+                habilidades para comunicar hechos de manera precisa en reuniones
+                con ejecutivos del sector retail.
               </p>
+              <div class="personal-info">
+                <ul class="list-unstyled">
+                  <li>
+                    <strong>Fecha de nacimiento:</strong> 12 Diciembre de 1990
+                  </li>
+                  <li><strong>Ubicación:</strong> Santiago, Chile</li>
+                  <li>
+                    <strong>Correo electrónico:</strong>
+                    nicolasperrynunez@gmail.com
+                  </li>
+                  <li><strong>Teléfono:</strong> (+56 9) 73902035</li>
+                </ul>
+              </div>
             </section>
+            <section id="experiencia" class="text-start mb-5">
+              <h2>Resumen</h2>
+              <hr class="custom-line" />
+              <div class="container mt-5">
+                <div class="row">
+                  <!--Educación -->
+                  <div class="col-md-4">
+                    <div class="card p-4">
+                      <h2>Educación</h2>
+                      <div>
+                        <h5>INGENIERÍA COMERCIAL</h5>
+                        <p class="text-muted">2014 - 2019</p>
+                        <p>UNIVERSIDAD ANDRÉS BELLO</p>
+                        <p class="text-muted small">
+                          Estudios en Ingeniería Comercial con mención en
+                          Finanzas, donde adquirí sólidos conocimientos en
+                          análisis financiero, gestión de inversiones, mercados
+                          de capitales y planificación estratégica. Desarrollo
+                          habilidades analíticas y cuantitativas para la toma de
+                          decisiones empresariales.
+                        </p>
+                      </div>
+                      <hr class="my-4" />
+                      <div class="mt-4">
+                        <h5>MODELAMIENTO Y ANÁLISIS DE DATOS</h5>
+                        <p class="text-muted">2021 - 2021</p>
+                        <p>UNIVERSIDAD DE SANTIAGO DE CHILE</p>
+                        <p class="text-muted small">
+                          Diplomado en Modelamiento y Análisis de Datos, donde
+                          profundicé en el uso de herramientas como Power BI,
+                          Python, SQL y R para la manipulación y análisis de
+                          grandes volúmenes de datos. A través de proyectos
+                          prácticos, desarrollé habilidades en la creación de
+                          dashboards interactivos, análisis predictivos y
+                          optimización de procesos empresariales mediante
+                          técnicas avanzadas de modelado y visualización de
+                          datos.
+                        </p>
+                      </div>
+                      <hr class="my-4" />
+                      <div class="mt-4">
+                        <h5>DESARROLLO WEB</h5>
+                        <p class="text-muted">2025 - ACTUALIDAD</p>
+                        <p>DESAFIO LATAM</p>
+                        <p class="text-muted small">
+                          Actualmente estoy cursando un programa intensivo de
+                          desarrollo web, donde estoy adquiriendo habilidades
+                          prácticas en HTML, CSS, Bootstrap, JavaScript y SQL. A
+                          través de este curso, estoy profundizando en el diseño
+                          y la construcción de sitios web interactivos y
+                          funcionales, así como en la integración de bases de
+                          datos para mejorar la experiencia de usuario y la
+                          gestión de contenido.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
 
-            <section id="experiencia" class="mb-5">
-              <h2>Experiencia Profesional</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-                et consectetur beatae debitis, enim fugit illum reprehenderit
-                aspernatur animi officia vero rem voluptates. Ducimus illo a
-                quis, voluptatibus quam ut!
-              </p>
+                  <!--Experiencia Profesional -->
+                  <div class="col-md-8">
+                    <div class="card p-4">
+                      <h2>Experiencia Profesional</h2>
+                      <div class="mb-4">
+                        <h5>ANALISTA DE ABASTECIMIENTO SENIOR</h5>
+                        <p class="text-muted">2024 - Present</p>
+                        <p>Chiper Copec, Santiago, CL</p>
+                        <ul class="list-unstyled">
+                          <li>
+                            <i class="fas fa-caret-right mr-2"></i> Gestión de
+                            compras por más de 1,1 miles de millones de pesos
+                            mensuales.
+                          </li>
+                          <li>
+                            <i class="fas fa-caret-right mr-2"></i> Desarrollo y
+                            fortalecimiento de relaciones con el área de
+                            abastecimiento de proveedores clave.
+                          </li>
+                          <li>
+                            <i class="fas fa-caret-right mr-2"></i> Monitoreo y
+                            análisis de KPI estratégicos para optimizar la
+                            gestión de abastecimiento.
+                          </li>
+                          <li>
+                            <i class="fas fa-caret-right mr-2"></i> Coordinación
+                            y ejecución del llenado de nuevos centros de
+                            distribución.
+                          </li>
+                          <li>
+                            <i class="fas fa-caret-right mr-2"></i> Elaboración
+                            de reportes para la toma de decisiones y
+                            optimización de procesos.
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="mb-4">
+                        <h5>ANALISTA DE ABASTECIMIENTO</h5>
+                        <p class="text-muted">2022 - 2023</p>
+                        <p>Walmart Chile, Santiago, CL</p>
+                        <ul class="list-unstyled">
+                          <li>
+                            <i class="fas fa-caret-right mr-2"></i> Gestión de
+                            compras por más de 4.000 millones de pesos mensuales
+                            para proveedores de China, Estados Unidos y Europa,
+                            en categorías clave como detergentes, snacks y
+                            aceites.
+                          </li>
+                          <li>
+                            <i class="fas fa-caret-right mr-2"></i> Asegurar el
+                            correcto abastecimiento de marcas propias en más de
+                            399 locales de Walmart Chile.
+                          </li>
+                          <li>
+                            <i class="fas fa-caret-right mr-2"></i> Desarrollo y
+                            fortalecimiento de relaciones con el área de
+                            abastecimiento de proveedores clave.
+                          </li>
+                          <li>
+                            <i class="fas fa-caret-right mr-2"></i> Monitoreo y
+                            análisis de KPI estratégicos para optimizar la
+                            gestión de abastecimiento.
+                          </li>
+                          <li>
+                            <i class="fas fa-caret-right mr-2"></i> Creación de
+                            reportes para dar visibilidad de KPI de
+                            abastecimiento a equipos comerciales.
+                          </li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h5>PLANNER DE LÍNEAS PRODUCTIVAS</h5>
+                        <p class="text-muted">2021 - 2022</p>
+                        <p>Walmart Chile, Santiago, CL</p>
+                        <ul class="list-unstyled">
+                          <li>
+                            <i class="fas fa-caret-right mr-2"></i>
+                            Planificación diaria de la producción en plantas de
+                            Walmart Chile, asegurando más de 50.000 unidades en
+                            categorías de Pizza y Bollería.
+                          </li>
+                          <li>
+                            <i class="fas fa-caret-right mr-2"></i> Gestión de
+                            la producción a corto y mediano plazo, optimizando
+                            materias primas y turnos.
+                          </li>
+                          <li>
+                            <i class="fas fa-caret-right mr-2"></i> Control de
+                            inventarios e informes diarios con la jefatura.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </section>
 
             <section id="skills" class="mb-5">
@@ -164,5 +324,16 @@
         });
       });
     </script>
+    <script
+      src="https://kit.fontawesome.com/your_fontawesome_kit.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/b5f3206296.js"
+      crossorigin="anonymous"
+      rel="noopener"
+    ></script>
   </body>
 </html>
