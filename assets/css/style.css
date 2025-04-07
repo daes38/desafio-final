@@ -173,7 +173,21 @@ h5 {
 .list-unstyled li {
     margin-bottom: 0.3rem;
 }
+  /* sección de experiencia */
+.cursor-pointer {
+	cursor: pointer;
+}
 
+.hover-transform:hover {
+	transform: scale(1.05);
+	transition: transform 0.2s ease-in-out;
+    background-color: #0dcaf0 !important;
+}
+
+
+.card-background{
+    background-color: #000000 !important;
+}
 /*Estilos para los iconos */
 .fa-map-marker-alt,
 .fa-phone,
