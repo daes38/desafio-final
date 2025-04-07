@@ -38,20 +38,20 @@
 
 ---
 
-### Tercera actualización HTML y CSS
+### Cuarta actualización HTML y CSS
 
     1-Se agregan imágenes para completar el portafolio
     2-se estructura el portafolio en base a cartas
 
 ---
 
-### Tercera actualización HTML y CSS
+### Quinta actualización HTML y CSS
 
     1-Se agrega seccion contactame
 
 ---
 
-### Tercera actualización HTML y CSS
+### Sexta actualización HTML y CSS
 
     1-se agrega URL  proyectos antiguos en la sección de portafolio.
     2-agrega favicon
@@ -63,5 +63,12 @@ Se realiza fork al proyecto de Felipe Torres (https://github.com/Nico-Perry-1990
 
 ### Fork y Commit (2)
 
-Se realiza fork al proyecto de Matistr
+Se realiza fork al proyecto de Matistr (https://github.com/Nico-Perry-1990/Examen-1-DesafioLatam.git)
 ![se reliza un commit corrigiendo el titulo de la seccion de habilidades](assets/images/externalcommit-2.png)
+
+### Octava actualización HTML y CSS + correción del README.md
+
+    1-Se corrige títulos del README.
+    2-Se agregan RRSS al sidebar con formato.
+
+## Se finaliza el proyecto y se comparte en GitHub pages.

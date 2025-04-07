@@ -13,7 +13,9 @@
     left: 0;
     z-index: 1030;
   }
-  
+  .sidebar-footer {
+    text-align: center;
+  }
   /* movimiento de p[agina */
   @media (min-width: 992px) {
     body {
@@ -62,6 +64,22 @@
   
   .sidebar .nav-link:hover {
     color: #00bfff;
+  }
+
+  .sidebar-footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .social-icon {
+    color: white !important;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+    color: #00bfff !important;
   }
   /* hero section */
   #Hero-Section {
